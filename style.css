@@ -15,6 +15,9 @@ body{
   border-radius: 4px;
   
   }
+#home{
+  heigh:5px;
+}
 
 .container-social{
   display: flex;
