@@ -1,0 +1,279 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.nav-item a{
+    font-size: 1.2rem;
+}
+  
+.nav-item a:hover{
+    background-color: #AFEEEE;
+    border-radius: 4px;
+}
+
+.container-social{
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.container-social a{
+    margin: 0px 10px 0px 10px;
+}
+
+#botao{
+    width: 6rem;
+    background-color: #1E90FF;
+    border: solid #1E90FF 1px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  #botao:hover{
+    background-color: white;
+    color: #1E90FF;
+    border: solid #1E90FF 1px;
+  }
+
+  #carouselExampleCaptions{
+    width: 55%;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 60px 40px black inset;
+}
+
+#atendimento{
+    width: 20%; /*foto lado esquerdo com texto a direita*/
+}
+
+.texto-sobre{
+    padding: 1.5rem;
+}
+
+#card-one{
+    background-color: #87CEFA;
+    height: 26rem;
+    transition: transform .2s;
+  }
+  
+  #card-two{
+    background-color: #00BFFF;
+    height: 26rem;
+    transition: transform .2s;
+  }
+  
+  #card-three{
+    background-color: #87CEFA;
+    height: 26rem;
+    transition: transform .2s;
+  }
+  
+  #card-four{
+    background-color: #00BFFF;
+    height: 26rem;
+    transition: transform .2s;
+  }
+  
+  #card-five{
+    background-color: #87CEFA;
+    height: 26rem;
+    transition: transform .2s;
+  }
+  
+  #card-six{
+    background-color: #00BFFF;
+    height: 26rem;
+    transition: transform .2s;
+  }
+  #botao-saiba-mais{
+    background-color: #FFD700;
+    height: 3rem;
+    border: yellow;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+#card-one:hover{
+  transform: scale(1.05)
+}
+#card-two:hover{
+  transform: scale(1.05)
+}
+#card-three:hover{
+  transform: scale(1.05)
+}
+#card-four:hover{
+  transform: scale(1.05)
+}
+#card-five:hover{
+  transform: scale(1.05)
+}
+#card-six:hover{
+  transform: scale(1.05)
+}
+
+#clientes{
+    width: 80%;
+    margin: auto;
+  }
+  #clientes img{
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+  }
+  #clientes img:hover{
+    transform: scale(1.2);
+  }
+
+  #contato{
+    width: 80%;
+  }
+
+  #contato a{
+    text-decoration: none;
+  }
+
+  #map{
+    width: 90%;
+    margin: auto;
+  }
+
+/*-----Mobile--------------------------------------------------------*/
+
+@media(max-width: 768px){
+
+#social{
+    width: 50%;
+    margin-left: 35%;
+}
+
+#social a{
+    margin:  0 0.5rem 0rem 0.5rem;
+}
+
+#botao{
+    width: 5rem;
+    background-color: #1E90FF;
+    border: solid #1E90FF 1px;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+#carouselExampleCaptions{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.5rem;
+    box-shadow: 0px 0px 30px 20px black inset;
+}
+
+#card-one {
+  height: 20rem;
+}
+
+#card-two{
+  height: 20rem;
+}
+
+#card-three{
+  height: 20rem;
+}
+
+#card-four{
+  height: 23rem;
+}
+
+#card-five{
+  height: 23rem;
+}
+
+#card-six{
+  height: 23rem;
+  line-height: 1rem;
+}
+#botao-saiba-mais{
+  background-color: #FFD700;
+  height: 3rem;
+  border: yellow;
+  border-radius: 1rem;
+  font-weight: 700;
+}
+
+#clientes{
+  width: 100%;
+  margin: auto;
+}
+#clientes img{
+  margin: .5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform .2s;
+}
+
+#contato{
+  width: 95%;
+}
+
+}
+
+/*-----Mobile- 2 -----------------------------------------------------*/
+@media(max-width: 960px){
+  #carouselExampleCaptions{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.5rem;
+    box-shadow: 0px 0px 30px 20px black inset;
+}
+
+#card-one {
+  height: 25rem;
+  font-size: 0.9rem;
+}
+#card-one h3{
+  font-size: 1.2rem;
+}
+
+#card-two{
+  height: 25rem;
+  font-size: 0.9rem;
+}
+#card-two h3{
+  font-size: 1.2rem;
+}
+
+#card-three{
+  height: 25rem;
+  font-size: 0.9rem;
+}
+#card-three h3{
+  font-size: 1.2rem;
+}
+
+#card-four{
+  height: 23rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+#card-four h3{
+  font-size: 1.2rem;
+}
+
+#card-five{
+  height: 23rem;
+  font-size: 0.9rem;
+}
+#card-five h3{
+  font-size: 1.2rem;
+}
+
+#card-six{
+  height: 23rem;
+  font-size: 0.9rem;
+}
+#card-six h3{
+  font-size: 1.2rem;
+}
+
+}
