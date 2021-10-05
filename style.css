@@ -1,0 +1,255 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.nav-item a{
+    font-size: 1.2rem;
+}
+  
+.nav-item a:hover{
+    background-color: #AFEEEE;
+    border-radius: 4px;
+}
+
+#redes-dois{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+#redes-dois a{
+    margin: 0px 10px 0px 10px;
+}
+
+#botao{
+    width: 6rem;
+    background-color: #1E90FF;
+    border: solid #1E90FF 1px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  #botao:hover{
+    background-color: white;
+    color: #1E90FF;
+    border: solid #1E90FF 1px;
+  }
+  /*Icone whatsapp fixo*/
+    .float{
+    position:fixed;
+    width:75px;
+    height:75px;
+    bottom:30px;
+    right:20px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:45px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+  
+  .my-float{
+    margin-top:16px;
+}
+
+  #carouselExampleCaptions{
+    width: 100%;
+    margin: auto;
+    top: 0;
+    position: relative;
+}
+
+#atendimento{
+    width: 30%; /*foto lado esquerdo com texto a direita*/
+}
+
+#card{
+  transition: .2;
+}
+#card:hover{
+  transform: scale(1.05);
+}
+
+#clientes{
+    width: 80%;
+    margin: auto;
+}
+#clientes img{
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+  }
+#clientes img:hover{
+    transform: scale(1.2);
+  }
+
+  #contato{
+    width: 80%;
+  }
+
+  #contato a{
+    text-decoration: none;
+  }
+
+  #map{
+    width: 90%;
+    margin: auto;
+  }
+
+/*-----Mobile--------------------------------------------------------*/
+
+@media(max-width: 768px){
+
+#redes-dois{
+    margin-left: 40%;
+}
+
+#social a{
+    margin:  0 0.5rem 0rem 0.5rem;
+}
+
+#botao{
+    width: 5rem;
+    background-color: #1E90FF;
+    border: solid #1E90FF 1px;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.float{
+    position:fixed;
+    width:50px;
+    height:50px;
+    bottom:20px;
+    right:20px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .my-float{
+    margin-top:10px;
+  }
+
+#carouselExampleCaptions{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.5rem;
+    box-shadow: 0px 0px 30px 20px black inset;
+}
+
+#card-one {
+  height: 20rem;
+}
+
+#card-two{
+  height: 20rem;
+}
+
+#card-three{
+  height: 20rem;
+}
+
+#card-four{
+  height: 23rem;
+}
+
+#card-five{
+  height: 23rem;
+}
+
+#card-six{
+  height: 23rem;
+  line-height: 1rem;
+}
+#botao-saiba-mais{
+  background-color: #FFD700;
+  height: 3rem;
+  border: yellow;
+  border-radius: 1rem;
+  font-weight: 700;
+}
+
+#clientes{
+  width: 100%;
+  margin: auto;
+}
+#clientes img{
+  margin: .5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform .2s;
+}
+
+#contato{
+  width: 95%;
+}
+
+}
+
+/*-----Mobile- 2 -----------------------------------------------------*/
+@media(max-width: 960px){
+  #carouselExampleCaptions{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.5rem;
+    box-shadow: 0px 0px 30px 20px black inset;
+}
+
+#card-one {
+  height: 25rem;
+  font-size: 0.9rem;
+}
+#card-one h3{
+  font-size: 1.2rem;
+}
+
+#card-two{
+  height: 25rem;
+  font-size: 0.9rem;
+}
+#card-two h3{
+  font-size: 1.2rem;
+}
+
+#card-three{
+  height: 25rem;
+  font-size: 0.9rem;
+}
+#card-three h3{
+  font-size: 1.2rem;
+}
+
+#card-four{
+  height: 23rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+#card-four h3{
+  font-size: 1.2rem;
+}
+
+#card-five{
+  height: 23rem;
+  font-size: 0.9rem;
+}
+#card-five h3{
+  font-size: 1.2rem;
+}
+
+#card-six{
+  height: 23rem;
+  font-size: 0.9rem;
+}
+#card-six h3{
+  font-size: 1.2rem;
+}
+
+}
